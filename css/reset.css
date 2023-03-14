@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 2rem;
+}
+:root {
+    --color-primaria: #000;
+    --color-secundaria: #fff;
+    --color-terceira: #ffffff82;
+    --color-quarta: #DAA520;
+    --color-quinta: #daa52000;
+}
+strong {
+    color: var(--color-quarta);
+    background: var(--color-quinta);
+}
+.organicao-primaria, .container-terceiro, .sessao-empresas, .container_metodologia {
+visibility: hidden;
+}
+.sessao-formulario {
+    visibility: hidden;
+}
