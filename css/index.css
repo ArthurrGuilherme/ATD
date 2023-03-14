@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     background: #000000a5;
 }
 .titulo-primaria {
@@ -110,7 +110,7 @@
 
 /*container-empresas*/
 .container-empresas {
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -179,15 +179,15 @@
     flex-direction: column;
     justify-content: center;
     padding: 0px 0px 0px 5rem;
-    gap: 1.5rem;
+    gap: 1rem;
     background: var(--color-primaria);
 }
 .titulo-secundaria {
-    width: 348px;
+    width: 500px;
     color: var(--color-secundaria);
 }
 .texto-secundaria {
-    width: 545px;
+    width: 580px;
     color: var(--color-secundaria);
 }
 #seta-secundaria {
@@ -205,7 +205,7 @@
 }
 #secundaria {
     align-items: baseline;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 /*Mobile*/
@@ -241,11 +241,12 @@
 }
 .cards-sesssao {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 1.5rem;
 }
 .card-sessao-teceiro {
-    width: 250px;
+    width: 90vh;
     border-radius: 20px;
     display: flex;
     align-items: baseline;
@@ -303,9 +304,14 @@
     .texto-terceiro {
         font-size: 1.2rem;
         text-align: center;
+        padding: .5rem;
     }
     .cards-sesssao {
         gap: 1.5rem;
+    }
+    .card-sessao-teceiro {
+        width: 52vh;
+        padding: 1.5rem 1rem;
     }
 }
 
@@ -318,7 +324,7 @@
     background-attachment: fixed;
 }
 .sessao-quarta {
-    height: 350px;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -327,7 +333,7 @@
     background: #000000be;
 }
 .titulo-quarta {
-    width: 323px;
+    width: 50vh;
     color: var(--color-secundaria);
 }
 .texto-quarta {
@@ -345,6 +351,9 @@
 #quarta {
     align-items: baseline;
     gap: 1.5rem;
+}
+.sessao_numero_titulo {
+    text-align: center;
 }
 
 /*Mobile*/
@@ -378,7 +387,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    height: 730px;
+    height: 140vh;
 }
 .metodologia_titulo {
     font-size: 2.5rem;
@@ -439,7 +448,6 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
     background: var(--color-primaria);
     color: var(--color-secundaria);
 }
@@ -498,6 +506,7 @@
     }
     .container-numeros {
         flex-direction: column;
+        height: 100vh;
     }
     .sessao-texto-numeros {
         font-size: 1.2rem;
@@ -527,6 +536,19 @@
     color: #ffffff8d;
 }
 
+/*Mobile*/
+@media (max-width: 600px) {
+    .sessa-borda {
+        width: 30%;
+    }
+    .bx-down-arrow-alt {
+        font-size: 2.5rem;
+    }
+    .container-setas {
+        gap: 0.5rem;
+    }
+}
+
 
 /*alguns-cases*/
 .alguns-cases {
@@ -534,6 +556,10 @@
     height: auto;
     background: var(--color-primaria);
     color: var(--color-secundaria);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 4rem 0px;
 }
 .texto-alguns {
     text-align: center;
@@ -541,7 +567,7 @@
 }
 .card-cases {
     display: flex;
-    justify-content: space-evenly;
+    gap: 10rem;
     padding: 3rem 0px;
 }
 .card-cases-sessoes {
@@ -550,4 +576,114 @@
     flex-direction: column;
     gap: 2rem;
     text-align: center;
+}
+.img-cases {
+    border-radius: 15px;
+    width: 260px;
+}
+.texto-cases-sucesso {
+    font-size: 1.2rem;
+}
+
+/*Mobile*/
+@media (max-width: 600px) {
+    .card-cases {
+        flex-direction: column;
+        gap: 3rem;
+        padding: 0px 0px 2rem 0px ;
+    }
+    .texto-alguns {
+        text-align: center;
+        font-size: 1.5rem;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*Time*/
+.cor-time02 {
+    width: 100%;
+    height: 2vh;
+    background: #daa520f5;
+}
+.cor-time {
+    width: 100%;
+    height: 2vh;
+    background: #daa520da;
+}
+.time {
+    width: 100%;
+    height: 100vh;
+    background: url(https://i.pinimg.com/564x/87/db/b7/87dbb7f8bee7c3b802b8d7c453fcba87.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.sessao-time {
+    width: 100%;
+    height: 100vh;
+    background: #daa520b8;
+}
+.texto-time {
+    font-size: 1.5rem;
+    color: #fff;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner {
+    display: flex;
+    height: 60vh;
+    padding: 0px 10rem;
+}
+.cards-time {
+    height: 60vh;
+    display: flex;
+}
+.cards-time-sessao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+.texto-card-time {
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 2rem;
+    flex-direction: column;
+}
+.img-time-sessao {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem 0px;
+}
+
+/*Mobile*/
+@media (max-width: 600px) {
+    .texto-time {
+        text-align: center;
+        padding: 0px 1rem;
+    }
+    .carousel-inner {
+        height: 100vh;
+        padding: 0px 1rem;
+    }
+    .time {
+        height: 135vh;
+    }
+    .sessao-time {
+        height: 135vh;
+    }
 }

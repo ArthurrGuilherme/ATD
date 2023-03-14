@@ -6,6 +6,12 @@
     text-decoration: none;
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 2rem;
+}
 :root {
     --color-primaria: #000;
     --color-secundaria: #fff;
