@@ -1,0 +1,198 @@
+/*Apresentação*/
+@media (max-width: 900px) {
+    .container-apresentacao {
+        background-image: url(/img/mobile.jpg);
+    }
+    .texto-apresentacao {
+        text-align: center;
+    }
+    .titulo-apresentacao {
+        overflow: visible;
+        white-space: pre-wrap;
+        border-right: 0px;
+    }
+    .p-branco {
+        width: 60%;
+    }
+    .borda-animacao {
+        padding: 0px 3rem;
+        animation: none;
+    } 
+}
+/*Apresentação*/
+
+/*Formulario*/
+@media (max-width: 900px) {
+    #container-transformacaoDigital {
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 2rem 0px 2rem 0px;
+        gap: .8rem;
+    }
+    #container-transformacaodigital {
+        height: 75vh;
+        align-items: center;
+        width: 75%;
+    }
+    #organizacao-h3 {
+        width: 100% !important;
+    }
+    #P-ATD {
+        width: 100%;
+        text-align: inherit;
+        margin: 0;
+    }
+    #Atd {
+        width: 80%;
+    }
+}
+@media (max-width: 600px) {
+    .container-formulario {
+        flex-direction: column;
+        padding: 2rem 0px !important;
+    }
+    .sessao-formulario {
+        width: 70%;
+        text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    #llCaptureForm {
+        width: 90% !important;
+        position: inherit;
+        border-radius: 0px;
+        border-radius: 3%;
+    }
+    #btn-formulario {
+        padding: 10px 120px !important;
+        border-radius: 15px 0px 15px 0px !important;
+    }
+}
+/*Formulario*/
+
+/*Cases*/
+@media (max-width: 900px) {
+    .body-corrossel {
+        display: block !important;
+    }
+    .sessao-img-cases {
+        display: none !important;
+    }
+	#div-principal-carrossel {
+		height: 40vh;
+	}
+	.h3-cases {
+		text-transform: uppercase;
+		padding: 3rem 0px 1rem 0px;
+	}
+	.cases-fotos {
+        width: 200px;
+        height: 280px;
+        border-radius: 40%;
+		-webkit-filter: drop-shadow(15px 10px 5px rgba(255, 255, 255, 0.5));
+    	filter: drop-shadow(15px 10px 5px rgba(255, 255, 255, 0.5))
+	}
+}
+@media (max-width: 900px) {
+    .sessao-fotos-cases {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .h3-cases {
+        text-transform: uppercase;
+        padding: .5rem 0px;
+        text-align: center;
+    }
+}
+@media (max-width: 900px) {
+    .sessao-terceiro {
+        height: 100vh;
+        padding-left: 0rem;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .sessao-apresentacao-terceiro {
+        width: 85%;
+        text-align: center;
+    }
+    
+}
+@media (max-width: 900px) {
+	#div-principal-carrossel {
+		height: 40vh;
+	}
+	.h3-cases {
+		text-transform: uppercase;
+		padding: 3rem 0px 1rem 0px;
+	}
+	.cases-fotos {
+		border-radius: 0px;
+		-webkit-filter: drop-shadow(15px 10px 5px rgba(255, 255, 255, 0.5));
+    	filter: drop-shadow(15px 10px 5px rgba(255, 255, 255, 0.5))
+	}
+}
+/*Cases*/
+
+/*body*/
+@media (max-width: 900px) {
+    /*Cards*/
+    .cards-sesssao {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-sessao-card {
+        width: 90% !important;
+    }
+    .btn-primaria {
+        font-size: .9rem;
+    }
+    .texto-card {
+        height: 25vh;
+        text-align: center;
+        padding: 0px 2rem;
+    }
+    #btn-card {
+        padding: 1rem 0px;
+    }
+    /*numeros*/
+    .container-numeros {
+        height: 93vh !important;
+    }
+    .Organizacao_cubo_numeros {
+        flex-direction: column;
+    }
+    /*Seta*/
+    .container-setas {
+        gap: 1rem;
+        height: auto;
+    }
+    .sessa-borda {
+        width: 30%;
+    }
+    /*Cases*/
+    .texto-alguns {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-cases {
+        gap: 2rem !important;
+        flex-direction: column;
+        padding: .5rem 0px !important;
+    }
+}
+@media (max-width: 414px) {
+    .container-numeros {
+        height: 70vh;
+    }
+}
+@media (max-width: 375px) {
+    .container-numeros {
+        height: 90vh;
+    }
+} 
+/*body*/

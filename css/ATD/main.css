@@ -1,0 +1,202 @@
+/*Container-primario*/
+.container-apresentacao {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    position: relative;
+    overflow: hidden;
+    background-image: url(/img/Site.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.seesao-texto {
+    display: flex;
+    justify-content: center;
+}
+.titulo-apresentacao {
+    color: var(--bs-gray-100);
+    font-weight: 900;
+    /*border-right: 4px solid #daa520;*/
+    white-space: nowrap;
+    overflow: hidden;
+}
+/*.borda-animacao {
+    animation: borda 800ms infinite normal,  letras 5s 2s infinite normal;
+}*/
+.p-branco {
+    color: var(--bs-gray-100);
+    text-align: center;
+    font-weight: 600;
+    width: 45%;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bx-chevrons-down {
+    color: var(--bs-gray-100);
+    font-weight: 800;
+    font-size: 2.5rem;
+    animation: seta 2s infinite;
+    position: relative;
+}
+/*Efeitos*/
+.container-apresentacao::after {
+    content: " ";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.089) 40%, #000000 100%);
+}
+/*Animações*/
+@keyframes seta {
+    from {top: 0px;}
+    to {top: 40px; color: #00000000;}
+}
+/*@keyframes borda {
+    from {
+        border-right-color: #daa520;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}*/
+/*Container-primario*/
+
+/*Body*/
+.container-body {
+    background-color: #000;
+    color: var(--bs-gray-100);
+    height: auto;
+}
+/*Body*/
+
+/*Comentario*/
+.container-comentarios {
+    flex-direction: column;
+}
+.container-comentarios, .carousel {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0px;
+}
+.carousel {
+    height: 60vh;
+}
+.img-carrossel {
+    width: 30%;
+    cursor: pointer;
+}
+.carousel-item {
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mobile-carrossel {
+    display: none;
+}
+.titulo-carrossel {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: var(--espaço-tamanho-quinta);
+}
+.texto-carrossel {
+    font-weight: 700;
+}
+#img-mobile {
+    width: 100%;
+}
+#container-comentarios-mobile {
+    display: none;
+}
+#btn-comentarios {
+    background: var(--color-principal);
+    padding: .5rem 2rem;
+    border-radius: 15px 0px;
+    transition: all .5s;
+    cursor: pointer;
+}
+#btn-cases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Efeitos*/
+#btn-comentarios:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+/*Comentario*/
+
+/*ATD*/
+.container-terceiro {
+    width: 100%;
+    background: url(https://i.pinimg.com/564x/1c/24/24/1c2424d9cd004710d3727e23218054b5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.sessao-terceiro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #00000088;
+    height: 50vh;
+    color: var(--bs-gray-100);
+    padding-left: 5rem;
+}
+.sessao-apresentacao-terceiro {
+    width: 45%;
+}
+/*ATD*/
+
+/*Comentarios*/
+@media (max-width: 600px) {
+    #carrosel-img {
+        display: block;
+        flex-direction: column;
+        padding: 0px 2rem;
+    }
+    #container-comentarios-desktop {
+        display: none;
+    }
+    #container-comentarios-mobile {
+        display: block;
+        height: auto;
+        padding: 3vh 0px;
+    }
+    #desktop-carrossel {
+        display: none;
+    }
+    .img-carrossel {
+        width: 100%;
+    }
+    .carousel {
+        height: 50vh;
+    }
+    .texto-carrossel {
+        padding: 0px 2rem;
+        text-align: center;
+    }
+    #btn-comentarios {
+        padding: 0.5rem 4rem;
+    }
+    #sessao-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 11vh;
+    }
+}
+/*Comentarios*/

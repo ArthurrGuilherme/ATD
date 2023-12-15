@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+     .container-main {
+        flex-direction: column;
+        height: 180vh; 
+     }
+     .sessao-texto-cadastro {
+        padding: 0px;
+        width: 90%;
+     }
+     .sessao-img-cadastro {
+        width: 100%;
+     }
+     .container-vendas {
+        padding: 0px;
+        flex-direction: column;
+        height: 110vh;
+        justify-content: center;
+        padding-top: 15rem;
+        padding-bottom: 5rem;
+
+     }
+     .sessao-texto {
+        width: 90%;
+     }
+}

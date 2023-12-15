@@ -1,0 +1,91 @@
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(/img/Bolhas.png);
+    background-color: var(--bs-black);
+}
+.sessao-img-cadastro, .sessao-texto-cadastro {
+    width: 50%;
+}
+.sessao-texto-cadastro {
+    padding-left: 3rem;
+    text-align: center;
+    color: var(--bs-gray-100);
+}
+.sessao-img-cadastro {
+    display: flex;
+    justify-content: center;
+}
+.img-cadastro {
+    width: 100%;
+}
+#Seta-cadastro {
+    color: var(--color-principal);
+}
+.sessao-cadastro {
+    padding-bottom: 1.8rem;
+}
+.btn-cadastro {
+    text-decoration: none;
+    color: var(--bs-gray-100);
+    background: var(--color-principal);
+    padding: 0.5rem 1rem;
+    border-radius: 10px 0px 10px 0px;
+}
+
+/*Ebook*/
+/*Pagina principal*/
+#sessao-ebook {
+    padding-top: 5rem;
+}
+.texto-especiallista {
+    color: var(--bs-gray-100);
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+.textos-sessao {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+/*Pagina principal*/
+/*Book*/
+.container-vendas {
+    width: 100%; 
+    height: 100vh;
+    background: var(--bs-gray-100);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+#color-sessao02 {
+    color: var(--bs-black);
+}
+.sessao-texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+#setaa {
+    cursor: pointer;
+}
+.sessao-img {
+    width: 100%;
+}
+.img-ebook {
+    width: 100%;
+}
+/*Efeito*/
+.btn-cadastro:hover {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+}
+/*Book*/
+/*Ebook*/

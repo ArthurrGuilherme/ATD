@@ -1,0 +1,85 @@
+.Link-principal {
+    font-size: 2rem;
+    color: var(--bs-gray-100);
+    font-weight: 900;
+    cursor: pointer;
+    transition: all .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#icon-principal {
+    padding-top: .6rem;
+    font-size: 2.5rem;
+}
+.nav-bar {
+    background: var(--bs-black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    box-shadow: 0px 0px 5px #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease
+}
+.lista-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: var(--efeito);
+    padding: var(--efeito);
+}
+.link-lista, .Link-principal  {
+    text-decoration: none;
+} 
+.link-lista {
+    font-size: .9rem;
+    color: #ffffff8e;
+    position: relative;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: all .5s;
+} 
+
+/*Efeitos*/
+.link-lista:hover::before, 
+.link-lista:focus::before {
+    transform-origin: left top;
+    transform:  scale(1, 1);
+}
+.link-lista::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #daa520;
+    transform-origin: right top;
+    transform:  scale(0, 1);
+    transition: color 0.1s, transform 0.2s ease-out;
+}
+.link-lista:hover {
+    color: var(--bs-gray-100);
+}
+.Link-principal:hover {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+}
+.nav-bar.active {
+    opacity: 100;
+    visibility: visible;
+}
+
+/*Mobile*/
+@media (max-width: 600px) {
+    .lista-navbar {
+        display: none;
+    }
+}

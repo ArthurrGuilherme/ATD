@@ -1,0 +1,162 @@
+/*container-card*/
+.texto-card {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.cards-sesssao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.card-sessao-card {
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 0.5rem;
+    background: var(--bs-gray-100);
+    cursor: pointer;
+    transition: all .5s;
+}
+.tema-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--bs-black);
+}
+.produtos-cards {
+    list-style: outside;
+    color: var(--bs-black);
+}
+.lista-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-primaria {
+    color: var(--bs-gray-100);
+    text-decoration: none;
+    font-weight: 600;
+}
+#btn-card {
+    background: var(--color-principal);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+    transition: all .5s;
+    display: flex;
+    justify-content: center;
+}
+
+/*Efeitos*/
+.card-sessao-card:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+#btn-card:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+/*container-card*/
+
+/*Numeros*/
+.container-numeros {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sessao_numero_titulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.apresentacao-texto-numeros {
+    text-align: center;
+    width: 80%;
+}
+.Organizacao_cubo_numeros {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+}
+.cubos_numeros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texto_numeros {
+    font-size: 1.5rem;
+}
+.organizacao_adc {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.centro-footer {
+    display: flex;
+    flex-direction: column;
+}
+/*Numeros*/
+
+/*Setas*/
+.container-setas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    gap: 1.5rem;
+}
+.sessa-borda {
+    width: 25%;
+}
+.borda-borda {
+    border: 0.1px solid;
+    color: var(--color-barra);
+}
+#seta-baixo {
+    font-size: 3.5rem;
+    color: var(--bs-gray-100);
+}
+/*Setas*/
+
+/*Cases*/
+.alguns-cases {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.texto-alguns {
+    text-align: center;
+}
+.card-cases {
+    display: flex;
+    gap: 10rem;
+    padding: 2rem 0px;
+}
+.card-cases-sessoes {
+    width: 258px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+}
+.img-cases {
+    border-radius: 15px;
+    width: 260px;
+    cursor: pointer;
+}
+/*Cases*/

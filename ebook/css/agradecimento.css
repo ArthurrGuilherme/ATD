@@ -1,0 +1,11 @@
+@media (max-width: 900px) {
+    #container-secundario {
+        height: 100vh;
+    }
+    #texto-book-gabriel {
+        width: 90%;
+        height: 25%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,18 @@
+@media (max-width: 900px) {
+    .container-main {
+        height: 130vh;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .sessao-texto-cadastro {
+        padding: 0px;
+        width: 90%;
+    }
+    .btn-cadastro {
+        padding: 0.5rem 15px;
+        font-size: .9rem;
+    }
+    .sessao-img-cadastro, .sessao-texto-cadastro {
+        width: 95%;
+    }
+}
